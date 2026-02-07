@@ -1,0 +1,75 @@
+p{
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .video-title{
+        font-weight: bold;
+        font-size: 18px;
+        width: 300px;
+        line-height: 24px;
+        margin-bottom: 2px;
+
+      }
+      .video-views{
+        font-size: 14px;  
+        color: gray;
+        text-align: left;
+        margin-bottom: 24px;
+      }
+      .three-text{
+        font-size: 14px;
+        color: gray;
+        margin-bottom: 24px;
+
+      }
+      .four-text{
+        font-size: 14px;
+        color: gray;
+        width: 270px ;
+        line-height: 20px;
+
+      }
+      .five-text{
+        color: white;
+        font-size: 14px;
+        background-color: red;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        
+      }
+      .text-shop{
+        color: white;
+        cursor: pointer;
+        margin-left: 5px;
+      }
+      .text-shop:hover{
+        text-decoration: underline;
+      }
+      .first-button{
+        background-color: green;
+        color: white;
+        border-radius: 8px;
+        padding-top: 12px;  
+        padding-bottom: 12px;
+        border: none;
+        padding-left: 16px;
+        padding-right: 16px;
+        text-align: center;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0,0.15);
+        cursor: pointer;
+      }
+      .first-button:hover{
+        background-color: red;
+        color: black;
+      }
+      .first-button:active{
+        box-shadow: none;
+        margin-top: 1px;
+        margin-left: 1px;
+        opacity: 0.7;
+
+      }
