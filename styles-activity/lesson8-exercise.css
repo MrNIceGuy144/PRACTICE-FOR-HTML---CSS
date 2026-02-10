@@ -4,9 +4,11 @@
       }
       .text-line{
         width: 190px;
+        font-weight: bold;
         margin-right: 10px;
         vertical-align: middle;
         display: inline-block
+        
         
       }
       .Yes-button{
