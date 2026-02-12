@@ -1,0 +1,44 @@
+ .red-square{
+        width: 30px;
+        height: 30px  ;
+        border: none;
+        background-color: red;
+      }
+      .green-circle{
+        background-color: green;
+        width: 30px;
+        height: 30px;
+        border: none;
+        border-radius: 16px;
+      }
+      .service{
+        border-style: solid;
+        display: inline-block;
+        width: 300px;
+        padding-bottom: 20px;
+        padding-left: 12px;
+        border-width: 1px;
+      }
+      .yes,.no {
+        cursor: pointer;
+      }
+      .youtube{
+        border-style: solid;
+        display: inline-block;
+        width: 365px;
+        padding-bottom: 20px;
+        padding-left: 16px;
+        border-width: 1px;
+        background-color: rgb(25, 22, 22);
+      }
+      .text{
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        font-family: Arial;
+      }
+      .text-two{
+        color: rgb(113, 109, 109);
+        font-family: Arial;
+
+      }
