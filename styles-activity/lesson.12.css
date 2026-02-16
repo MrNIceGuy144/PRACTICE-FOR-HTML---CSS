@@ -1,0 +1,59 @@
+ .overview{
+        display: grid;
+        grid-template-columns: 200px;
+        align-items: center;
+        margin: 0;
+        font-family: Arial;
+        width: 400px;
+        box-shadow: 0 0 5px rgb(0, 0, 0, 0.15);
+        vertical-align: top;
+        margin-right: 15px;
+        margin: 0;
+        border: none;
+        border-radius: 13px;
+        padding-left: 20px;
+
+      }
+      .home,.notif,.msg{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display: grid;
+        grid-template-columns: 45px 1fr;
+        column-gap: 300px;
+      }
+     
+      
+    .button-1,.button-2,.button-3{
+      border: none;
+      border-radius: 50px;
+      background-color: rgb(17, 102, 193);
+      color: white;
+      width: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+    }
+    
+    .button-1,.button-2,.button-3:hover{
+      cursor: pointer;
+    }
+
+    .button-1:active{
+      border-style: solid;
+      background-color: white;
+      color: rgb(17, 102, 193);
+    }
+
+    .button-2:active{
+      border-style: solid;
+      background-color: white;
+      color: rgb(17, 102, 193);
+    }
+
+    .button-3:active{
+      border-style: solid;
+      background-color: white;
+      color: rgb(17, 102, 193);
+    }
+   
