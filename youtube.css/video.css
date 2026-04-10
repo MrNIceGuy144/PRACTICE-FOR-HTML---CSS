@@ -6,9 +6,8 @@
         position: relative;
       }
 
-
         .thumbnail{
-          width: 60%;
+          width: 100%;
           display: block;
       }
         .video-time{
