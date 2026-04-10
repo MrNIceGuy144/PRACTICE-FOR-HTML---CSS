@@ -12,26 +12,46 @@
         background-color: rgb(248, 248, 248);
       }
 
+
 /* PHONE LAYOUT SECTION   */
 @media (max-width: 768px) {
 
   .sidebar {
     display: none;
-  }
 
+  }
+  body {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .video-grid {
     grid-template-columns: 1fr;
-    margin-top: 10pxs;
-
+    margin-top: 0px;
   }
+  .thumbnail{
+    width: 100%;
+    margin: 0;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
     
 .center-section{
      margin-left: 20px;
 }
 
+.video-stats{
+        
+      }
+
   .search-bar {
     width: 50px;
   }
+
+  
+
+  
 
   .header {
     flex-wrap: nowrap;
