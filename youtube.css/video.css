@@ -8,7 +8,7 @@
 
 
         .thumbnail{
-          width: 100%;
+          width: 60%;
           display: block;
       }
         .video-time{
@@ -20,11 +20,8 @@
           right: 5px;
           font-family: Roboto, Arial;
           font-weight: 500;
-          padding-left: 4px;
-          padding-right: 4px;
-          padding-top: 6px;
-          padding-bottom: 6px;
-          border-radius: 8px;
+          padding: 4px;
+          border-radius: 4px;
           
           
         }
@@ -72,5 +69,28 @@
         column-gap: 16px;
         row-gap: 40px;
         
+        
       }
+        /*Responsive Design*/
+        /*Close*/
+      @media (max-width: 750px){
+        .video-grid{
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+          /*Mid*/
+       @media (min-width: 751px) and (max-width: 999px) {
+        .video-grid{
+          grid-template-columns: 1fr 1fr 1fr;
+        } 
+      }
+            /*Wide*/
+       @media (min-width: 1000px){
+        .video-grid{
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+      }
+
+     
+      
       
