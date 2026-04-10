@@ -21,15 +21,20 @@
 
   .video-grid {
     grid-template-columns: 1fr;
-  }
+    margin-top: 10pxs;
 
-  
+  }
+    
+.center-section{
+     margin-left: 20px;
+}
+
   .search-bar {
-    width: 120px;
+    width: 50px;
   }
 
   .header {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
 }
